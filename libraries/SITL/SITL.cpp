@@ -208,12 +208,27 @@ const AP_Param::GroupInfo SITL::var_info2[] = {
     AP_GROUPINFO("VIB_MOT_MAX", 61, SITL,  vibe_motor, 0.0f),
     // minimum throttle for simulated ins noise
     AP_GROUPINFO("INS_THR_MIN", 62, SITL,  ins_noise_throttle_min, 0.1f),
+    AP_SUBGROUPEXTENSION("",      63, SITL,  var_info3),
 
     AP_GROUPEND
 
 };
 
+// third table of user settable parameters for SITL. 
+const AP_Param::GroupInfo SITL::var_info3[] = {
+    AP_GROUPINFO("MAG1_DEVID",    1, SITL,  mag_devid[0], 97539),    
+    AP_GROUPINFO("MAG2_DEVID",    2, SITL,  mag_devid[1], 131874),
+    AP_GROUPINFO("MAG3_DEVID",    3, SITL,  mag_devid[2], 263178),
+    AP_GROUPINFO("MAG4_DEVID",    4, SITL,  mag_devid[3], 97283),    
+    AP_GROUPINFO("MAG5_DEVID",    5, SITL,  mag_devid[4], 97795),
+    AP_GROUPINFO("MAG6_DEVID",    6, SITL,  mag_devid[5], 98051),
+    AP_GROUPINFO("MAG7_DEVID",    7, SITL,  mag_devid[6], 0),
+    AP_GROUPINFO("MAG8_DEVID",    8, SITL,  mag_devid[7], 0),
 
+    AP_GROUPEND
+
+};
+    
 /* report SITL state via MAVLink */
 void SITL::simstate_send(mavlink_channel_t chan)
 {
