@@ -1,0 +1,1 @@
+This branch is used to generate custom arducopter firmware for NPNT compliance
