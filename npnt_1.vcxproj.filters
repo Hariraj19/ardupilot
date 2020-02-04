@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arducopter">
+      <UniqueIdentifier>{c0a90434-9365-4713-8509-44b1de9ac099}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ArduCopter\.gitignore">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\AP_State.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\ArduCopter.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\Attitude.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\commands.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\commands_logic.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\compassmot.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\compat.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_acro.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_althold.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_auto.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_autotune.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_circle.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_drift.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_flip.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_guided.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_land.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_loiter.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_ofloiter.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_poshold.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_rtl.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_sport.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\control_stabilize.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\crash_check.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\ekf_check.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\events.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\failsafe.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\fence.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\flight_mode.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\GCS_Mavlink.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\heli.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\heli_control_acro.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\heli_control_stabilize.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\inertia.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\leds.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\Log.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\Makefile">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\motor_test.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\motors.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\navigation.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\nocore.inoflag">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\Parameters.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\perf_info.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\position_vector.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\radio.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\sensors.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\setup.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\switches.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\system.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\test.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+    <None Include="ArduCopter\UserCode.pde">
+      <Filter>Arducopter</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArduCopter\APM_Config.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\APM_Config_mavlink_hil.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\compat.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\config.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\config_channels.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\defines.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\heli.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\Parameters.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduCopter\UserVariables.h">
+      <Filter>Arducopter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ArduCopter\readme.txt">
+      <Filter>Arducopter</Filter>
+    </Text>
+    <Text Include="ArduCopter\ReleaseNotes.txt">
+      <Filter>Arducopter</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

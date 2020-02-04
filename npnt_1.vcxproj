@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65503BD7-C5D6-4B9A-AAD9-76525001E8D9}</ProjectGuid>
+    <RootNamespace>npnt_1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ArduCopter\.gitignore" />
+    <None Include="ArduCopter\AP_State.pde" />
+    <None Include="ArduCopter\ArduCopter.pde" />
+    <None Include="ArduCopter\Attitude.pde" />
+    <None Include="ArduCopter\commands.pde" />
+    <None Include="ArduCopter\commands_logic.pde" />
+    <None Include="ArduCopter\compassmot.pde" />
+    <None Include="ArduCopter\compat.pde" />
+    <None Include="ArduCopter\control_acro.pde" />
+    <None Include="ArduCopter\control_althold.pde" />
+    <None Include="ArduCopter\control_auto.pde" />
+    <None Include="ArduCopter\control_autotune.pde" />
+    <None Include="ArduCopter\control_circle.pde" />
+    <None Include="ArduCopter\control_drift.pde" />
+    <None Include="ArduCopter\control_flip.pde" />
+    <None Include="ArduCopter\control_guided.pde" />
+    <None Include="ArduCopter\control_land.pde" />
+    <None Include="ArduCopter\control_loiter.pde" />
+    <None Include="ArduCopter\control_ofloiter.pde" />
+    <None Include="ArduCopter\control_poshold.pde" />
+    <None Include="ArduCopter\control_rtl.pde" />
+    <None Include="ArduCopter\control_sport.pde" />
+    <None Include="ArduCopter\control_stabilize.pde" />
+    <None Include="ArduCopter\crash_check.pde" />
+    <None Include="ArduCopter\ekf_check.pde" />
+    <None Include="ArduCopter\events.pde" />
+    <None Include="ArduCopter\failsafe.pde" />
+    <None Include="ArduCopter\fence.pde" />
+    <None Include="ArduCopter\flight_mode.pde" />
+    <None Include="ArduCopter\GCS_Mavlink.pde" />
+    <None Include="ArduCopter\heli.pde" />
+    <None Include="ArduCopter\heli_control_acro.pde" />
+    <None Include="ArduCopter\heli_control_stabilize.pde" />
+    <None Include="ArduCopter\inertia.pde" />
+    <None Include="ArduCopter\leds.pde" />
+    <None Include="ArduCopter\Log.pde" />
+    <None Include="ArduCopter\Makefile" />
+    <None Include="ArduCopter\motors.pde" />
+    <None Include="ArduCopter\motor_test.pde" />
+    <None Include="ArduCopter\navigation.pde" />
+    <None Include="ArduCopter\nocore.inoflag" />
+    <None Include="ArduCopter\Parameters.pde" />
+    <None Include="ArduCopter\perf_info.pde" />
+    <None Include="ArduCopter\position_vector.pde" />
+    <None Include="ArduCopter\radio.pde" />
+    <None Include="ArduCopter\sensors.pde" />
+    <None Include="ArduCopter\setup.pde" />
+    <None Include="ArduCopter\switches.pde" />
+    <None Include="ArduCopter\system.pde" />
+    <None Include="ArduCopter\test.pde" />
+    <None Include="ArduCopter\UserCode.pde" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArduCopter\APM_Config.h" />
+    <ClInclude Include="ArduCopter\APM_Config_mavlink_hil.h" />
+    <ClInclude Include="ArduCopter\compat.h" />
+    <ClInclude Include="ArduCopter\config.h" />
+    <ClInclude Include="ArduCopter\config_channels.h" />
+    <ClInclude Include="ArduCopter\defines.h" />
+    <ClInclude Include="ArduCopter\heli.h" />
+    <ClInclude Include="ArduCopter\Parameters.h" />
+    <ClInclude Include="ArduCopter\UserVariables.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ArduCopter\readme.txt" />
+    <Text Include="ArduCopter\ReleaseNotes.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
